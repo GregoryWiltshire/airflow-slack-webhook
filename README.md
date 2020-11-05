@@ -28,3 +28,6 @@ fail_task = BashOperator(
     dag=dag,
 )
 ```
+
+<img src="https://github.com/GregoryWiltshire/airflow-slack-webhook/blob/main/callback.jpg?raw=true" alt="drawing" width="500"/>
+ 
