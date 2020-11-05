@@ -1,5 +1,5 @@
 # airflow-slack-webhook
-This is a very simple guide to integrating airflow alerting into your airflow cluster by utilizing slack's webhook operator.
+This is a very simple guide to integrating Slack alerting into your Airflow cluster by utilizing Slack's webhook operator.
 
 - [Create](https://api.slack.com/messaging/webhooks) a slack app with channel and incoming webhook.
 - Place the slack webhook url in plaintext in your secrets manager secret with the following format:
