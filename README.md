@@ -18,10 +18,10 @@ default_args = {
     'owner': 'slack.username'
 }
 
-dag = DAG('fail')
+dag = DAG('test_slack_alert')
 
 fail_task = BashOperator(
-    task_id='always_fails',
+    task_id='fail_task',
     bash_command='exit 1',
     on_failure_callback=failure_callback,
     default_args=default_args,
