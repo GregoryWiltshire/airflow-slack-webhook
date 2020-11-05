@@ -19,7 +19,7 @@ def send_message(context, msg):
 def failure_callback(context):
     owners = str(context['dag'].owner).split(',')
     ats = ''.join([f'<@{owner}> ' for owner in owners])
-    msg = f"""Task Failed. :yikes:\n
+    msg = f"""Task Failed.\n
 Dag: {context['task_instance'].dag_id}
 Task: {context['task_instance'].task_id}
 Execution Time: {context['execution_date']}
