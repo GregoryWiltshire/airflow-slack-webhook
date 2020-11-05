@@ -1,5 +1,5 @@
 # airflow-slack-webhook
-- Create a slack app with channel and incoming webhook.
+- [Create](https://api.slack.com/messaging/webhooks) a slack app with channel and incoming webhook.
 - Place the slack webhook url in plaintext in your secrets manager secret with the following format:
 ```
 https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/abcdefghijklmnopqrstuvwx
